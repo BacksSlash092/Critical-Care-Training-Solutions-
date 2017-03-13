@@ -1,0 +1,213 @@
+/*Global*/
+body{
+    
+    background:#ccc;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+
+}
+
+img{
+    width: 200px;
+    height: 250px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container{
+    background: white;
+ 
+}
+
+
+.courses{
+    text-align: center; 
+    
+    
+}
+
+.type{
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.amount{
+    color: green;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+
+
+/*Navigation Bar*/
+.navbar-inverse .container{
+    
+    background:#A72333;
+}
+
+
+
+
+
+
+.navbar-inverse{
+    
+    background: #A72333;
+   
+    
+}
+
+.nav.navbar-nav li a {
+    color: white;
+    font-size: 16px;
+   font-weight: bold;
+    width: 150px;
+    text-align: center;
+   
+ }
+
+.nav.navbar-nav li a:hover {
+   color: #A72333;
+    background: #ccc;
+ 
+ 
+ }
+
+
+
+.navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
+  color:#A72333!important;
+  background: #f7f7f7!important;
+}
+
+
+/*HEADING*/
+.featurette-heading{
+    
+    margin-top: 15%;
+    
+}
+
+
+/*MAIN SECTION*/
+#main{
+   
+  
+    padding: 0px;
+    height: 500px;
+    background: #A72333;
+    color: white; 
+    padding-left: 100px;
+
+    border-radius:20px; 
+    margin-bottom: 10px;
+    border:solid 1px #ccc;
+    
+    
+}
+
+#main ul{
+    
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+#main li{
+    margin-bottom: 5px;
+}
+
+
+.main-img img{
+    margin-top: 15%;
+    
+    margin-left: 15%;
+   
+}
+
+/*MARKETING*/
+.marketing{
+    margin-top:5px; 
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 25px;
+}
+
+
+
+.featurette-image {
+  width: 380px;  
+    border: 5px solid #ccc; 
+}
+
+@media (max-width:1199px) {
+    
+       
+        h1{
+            text-align: center;
+        }
+
+    /*HEADING*/
+    .featurette-heading{
+
+        margin-top:10%;
+        font-size: 25px;
+        font-weight: bold
+
+
+    }
+
+        
+}
+
+
+@media (min-width:400px) and (max-width:992px) {
+    
+ 
+    
+    h1{
+        
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .feature-row{
+        margin-left: -100px;
+        margin-top: 15px;  
+    
+    }
+    
+    .feature-list{
+            padding-bottom: 5px;
+
+        }
+    
+    .featurette-heading{
+        padding-top: 0px;
+        
+    }
+    
+    
+    .feature-button {
+        width:80%;
+        margin-left: 10%;
+        
+    }
+    
+    li{
+        font-size: 20px;
+    }
+    
+    .nav.navbar-nav li a {
+    color: white;
+    font-size: 15px;
+   font-weight: bold;
+    width: 120px;
+    text-align: center;
+   
+ }
+}
